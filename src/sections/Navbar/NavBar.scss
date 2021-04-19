@@ -1,0 +1,32 @@
+.navbar {
+  margin-top: 1.5rem;
+}
+.nav-link,
+.nav-link:after,
+.nav-link:before {
+  transition: all 0.5s;
+}
+/* stroke */
+.stroke {
+  .nav-link {
+    position: relative;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    // padding: 0.5rem 1rem !important;
+  }
+  .nav-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+  }
+  .nav-link:hover:after {
+    width: 100%;
+  }
+}

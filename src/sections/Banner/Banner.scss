@@ -1,0 +1,21 @@
+.banner-container {
+  // height: 80vh;
+  // border: 1px solid black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+
+  .title {
+    font-family: stylishFont;
+  }
+
+  .info {
+    padding: 1rem;
+  }
+  .photo {
+    padding: 2rem;
+    grid-row: auto/span 2;
+    justify-self: center;
+    // align-self: center;
+  }
+}

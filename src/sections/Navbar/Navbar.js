@@ -1,16 +1,16 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 
-import styles from "./NavBar.module.scss";
+import "./NavBar.scss";
 
 const NavBar = () => {
   return (
     <>
-      <Navbar className="d-flex" expand="lg" activeKey="/home">
+      <Navbar expand="md">
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
-          <Nav className="justify-content-end" activeKey="/home">
+          <Nav className="justify-content-end stroke">
             <Nav.Item>
               <Nav.Link href="/home">About</Nav.Link>
             </Nav.Item>
@@ -18,13 +18,13 @@ const NavBar = () => {
               <Nav.Link eventKey="link-1">Resume</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-2">Projects</Nav.Link>
+              <Nav.Link eventKey="link-2">Skills</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-2">Work</Nav.Link>
+              <Nav.Link eventKey="link-3">Projects</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-2">Contact</Nav.Link>
+              <Nav.Link eventKey="link-4">Contact</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
