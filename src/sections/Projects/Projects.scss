@@ -1,6 +1,26 @@
 .projects-container {
+  .grid-container {
+    display: grid;
+    -webkit-box-align: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 8fr;
+    gap: 1.2rem;
+  }
   .title {
     font-family: stylishFont;
     text-align: center;
+  }
+}
+
+@media (max-width: 960px) {
+  .projects-container .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .projects-container .grid-container {
+    grid-template-columns: 1fr;
   }
 }

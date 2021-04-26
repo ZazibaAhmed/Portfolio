@@ -19,3 +19,9 @@
     // align-self: center;
   }
 }
+
+@media (max-width: 768px) {
+  .banner-container {
+    grid-template-columns: 1fr;
+  }
+}
