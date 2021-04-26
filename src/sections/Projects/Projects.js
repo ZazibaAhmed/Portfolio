@@ -1,8 +1,8 @@
 import React from "react";
 import "./Projects.scss";
 
-import eSececure from "../../assets/images/eSecure.png";
-import proshop from "../../assets/images/proshop.png";
+import eSececure from "../../assets/projects/eSecure.png";
+import proshop from "../../assets/projects/proshop.png";
 
 import { ProjectCard } from "./components/ProjectCard";
 

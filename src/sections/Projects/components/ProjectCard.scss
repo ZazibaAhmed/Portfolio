@@ -10,7 +10,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 0px;
   }
   .project-card {
-    padding: 1rem;
+    padding: 1.5rem;
     background: rgb(255, 255, 255);
     height: 100%;
   }
@@ -24,6 +24,7 @@
       line-height: 1.1;
     }
     p {
+      font-size: 0.9rem;
       color: rgb(112, 112, 112);
       margin: 0px 0px 1.45rem;
       padding: 0px;
