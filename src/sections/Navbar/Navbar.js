@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 import "./NavBar.scss";
 
@@ -18,10 +19,28 @@ const NavBar = () => {
               <Nav.Link eventKey="link-1">Resume</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-2">Skills</Nav.Link>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                spy={true}
+                to="skills"
+                smooth={true}
+                duration={2000}
+              >
+                Skills
+              </Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-3">Projects</Nav.Link>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                spy={true}
+                to="projects"
+                smooth={true}
+                duration={2000}
+              >
+                Projects
+              </Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="link-4">Contact</Nav.Link>

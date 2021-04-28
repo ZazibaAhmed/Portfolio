@@ -1,8 +1,11 @@
 import React from "react";
 import "./Projects.scss";
+import { Element } from "react-scroll";
 
 import eSececure from "../../assets/projects/eSecure.png";
 import proshop from "../../assets/projects/proshop.png";
+import secureSociety from "../../assets/projects/societyManagement.png";
+import ms1 from "../../assets/projects/medisquare1.png";
 
 import { ProjectCard } from "./components/ProjectCard";
 
@@ -10,33 +13,35 @@ const projects = [
   {
     name: "eSecureSoft Technologies Ltd",
     description:
-      "Main website for eSecureSoft Technologies Ltd built using React",
+      "Main website for eSecureSoft Technologies Ltd built using React & React-Bootstrap",
     img: eSececure,
     live: "http://esecuresoftbd.com/",
   },
   {
     name: "Xmart",
     description:
-      "Multi-vendor E-commerce site built using Angular and Angular Material",
+      "Multi-vendor E-commerce site built using Angular,Angular Material & Django",
     img: eSececure,
     live: "",
   },
   {
     name: "Secure Soceity",
-    description: "a platform for rpg built using React, Redux, Material-UI",
-    img: proshop,
+    description:
+      "A society managemnet system using React, Redux, Material-UI & Django",
+    img: secureSociety,
     live: "",
   },
   {
     name: "MediSquare Health Ltd",
     description:
       "a platform for rpg document using HTML, CSS, Bootstrap and Vanilla JavaScript",
-    img: eSececure,
+    img: ms1,
     live: "",
   },
   {
     name: "Pro Shop",
-    description: "E-commerce site built using MERN",
+    description:
+      "An E-commerce platform with React, Redux, Node, Express & MongoDB",
     img: proshop,
     live: "https://pro-shop-123.herokuapp.com/",
   },
@@ -44,15 +49,19 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="projects-container">
-      <h1 className="title">Projects</h1>
-      <hr />
-      <div className="grid-container">
-        {projects.map((project, index) => {
-          return <ProjectCard key={index} project={project} />;
-        })}
+    <Element name="projects">
+      <div className="projects-container">
+        <h1 className="title">Projects</h1>
+        <hr />
+        <div className="grid-container">
+          <div className="grid">
+            {projects.map((project, index) => {
+              return <ProjectCard key={index} project={project} />;
+            })}
+          </div>
+        </div>
       </div>
-    </div>
+    </Element>
   );
 };
 
