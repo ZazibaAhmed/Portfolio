@@ -16,6 +16,7 @@ const projects = [
       "Main website for eSecureSoft Technologies Ltd built using React & React-Bootstrap",
     img: eSececure,
     live: "http://esecuresoftbd.com/",
+    code: "",
   },
   {
     name: "Xmart",
@@ -23,6 +24,7 @@ const projects = [
       "Multi-vendor E-commerce site built using Angular,Angular Material & Django",
     img: eSececure,
     live: "",
+    code: "",
   },
   {
     name: "Secure Soceity",
@@ -30,6 +32,7 @@ const projects = [
       "A society managemnet system using React, Redux, Material-UI & Django",
     img: secureSociety,
     live: "",
+    code: "",
   },
   {
     name: "MediSquare Health Ltd",
@@ -37,6 +40,7 @@ const projects = [
       "a platform for rpg document using HTML, CSS, Bootstrap and Vanilla JavaScript",
     img: ms1,
     live: "",
+    code: "",
   },
   {
     name: "Pro Shop",
@@ -44,6 +48,7 @@ const projects = [
       "An E-commerce platform with React, Redux, Node, Express & MongoDB",
     img: proshop,
     live: "https://pro-shop-123.herokuapp.com/",
+    code: "https://github.com/ZazibaAhmed/E-commerce-MERN",
   },
 ];
 

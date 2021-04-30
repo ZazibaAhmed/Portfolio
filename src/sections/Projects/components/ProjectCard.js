@@ -18,6 +18,13 @@ export const ProjectCard = ({ project }) => {
               view live
             </a>
           )}
+          {project.code === "" ? (
+            ""
+          ) : (
+            <a href={project.code} rel="noopener noreferrer" target="_blank">
+              view code
+            </a>
+          )}
         </div>
       </div>
     </div>

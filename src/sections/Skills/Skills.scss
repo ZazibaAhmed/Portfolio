@@ -1,5 +1,5 @@
 .skills-container {
-  padding-top: 1rem;
+  padding: 3rem 0;
   margin-bottom: 3rem;
   .title {
     font-family: stylishFont;
@@ -18,5 +18,10 @@
       grid-template-columns: repeat(auto-fit, minmax(80px, 3fr));
       gap: 0.8rem;
     }
+  }
+}
+@media (max-width: 500px) {
+  .skills-container .grid-container .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -1,5 +1,5 @@
 .projects-container {
-  padding-top: 1rem;
+  padding: 3rem 0;
   .title {
     font-family: stylishFont;
     text-align: center;
@@ -31,7 +31,7 @@
 }
 
 @media (max-width: 500px) {
-  .projects-container .grid {
+  .projects-container .grid-container .grid {
     grid-template-columns: 1fr;
   }
 }
