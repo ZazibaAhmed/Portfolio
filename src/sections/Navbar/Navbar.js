@@ -7,7 +7,7 @@ import "./NavBar.scss";
 const NavBar = () => {
   return (
     <>
-      <Navbar expand="md">
+      <Navbar expand="md" className="sticky-top">
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">

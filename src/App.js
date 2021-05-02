@@ -11,8 +11,10 @@ import Footer from "./sections/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
+      <div style={{ background: "gray", height: "100vh" }}>
+        <NavBar />
+        <Banner />
+      </div>
       <Skills />
       <Projects />
       <Footer />

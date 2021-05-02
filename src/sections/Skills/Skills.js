@@ -17,6 +17,8 @@ import nodejs from "../../assets/skills/nodejs.svg";
 import vscode from "../../assets/skills/vscode.svg";
 import postgresql from "../../assets/skills/postgresql.svg";
 import git from "../../assets/skills/git.svg";
+import firebase from "../../assets/skills/firebase.svg";
+import sql from "../../assets/skills/sql.svg";
 
 const Skills = () => {
   return (
@@ -36,7 +38,9 @@ const Skills = () => {
             <SkillCard img={nodejs} />
             <SkillCard img={mongodb} />
             <SkillCard img={express} />
+            <SkillCard img={sql} />
             <SkillCard img={postgresql} />
+            <SkillCard img={firebase} />
             <SkillCard img={git} />
             <SkillCard img={vscode} />
           </div>

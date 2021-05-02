@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <hr style={{ width: "100%" }} />
       <div className="left">
-        <p>Built by me</p>
+        <span>Built by me</span>
       </div>
     </footer>
   );

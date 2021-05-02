@@ -1,16 +1,16 @@
 .skill-card-container {
   justify-self: center;
-  width: 4rem;
-  height: 4rem;
   padding: 0.8rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px;
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px;
   .skill-card {
+    width: 4rem;
+    height: 4rem;
     display: flex;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     img {
       max-width: 100%;
-      margin: 0px 0px 1.45rem;
-      padding: 0px;
+      max-height: 100%;
     }
   }
 }
