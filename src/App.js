@@ -6,6 +6,7 @@ import NavBar from "./sections/NavBar/NavBar";
 import Banner from "./sections/Banner/Banner";
 import Skills from "./sections/Skills/Skills";
 import Projects from "./sections/Projects/Projects";
+import Contact from "./sections/Contact/Contact";
 import Footer from "./sections/Footer/Footer";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       </div>
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

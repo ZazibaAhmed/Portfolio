@@ -43,7 +43,16 @@ const NavBar = () => {
               </Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-4">Contact</Nav.Link>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                spy={true}
+                to="contact"
+                smooth={true}
+                duration={2000}
+              >
+                Contact
+              </Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
