@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 2fr;
+
   .title {
     font-family: stylishFont;
   }
@@ -18,7 +19,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .banner-container {
     grid-template-columns: 1fr;
     .photo {
@@ -27,5 +28,11 @@
     .title {
       text-align: center;
     }
+  }
+}
+@media (min-width: 992px) {
+  .banner-container {
+    height: 80vh;
+    align-items: center;
   }
 }

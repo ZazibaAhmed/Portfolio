@@ -6,7 +6,7 @@ import eSececure from "../../assets/projects/eSecure.png";
 import proshop from "../../assets/projects/proshop.png";
 import secureSociety from "../../assets/projects/societyManagement.png";
 import ms1 from "../../assets/projects/medisquare1.png";
-import xmart from "../../assets/projects/xmart.png";
+import xmart from "../../assets/projects/xmart1.png";
 
 import { ProjectCard } from "./components/ProjectCard";
 
@@ -24,7 +24,7 @@ const projects = [
     description:
       "Multi-vendor E-commerce site built using Angular,Angular Material & Django",
     img: xmart,
-    live: "",
+    live: "http://xmart.esecuresoft.com.bd:4200/",
     code: "",
   },
   {
