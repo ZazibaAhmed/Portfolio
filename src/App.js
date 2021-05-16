@@ -12,7 +12,7 @@ import Footer from "./sections/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <div style={{ background: "gray", height: "100vh" }}>
+      <div>
         <NavBar />
         <Banner />
       </div>

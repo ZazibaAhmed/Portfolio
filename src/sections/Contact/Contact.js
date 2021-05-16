@@ -10,8 +10,8 @@ const Contact = () => {
         <hr />
         <div className="grid-container">
           <div className="grid">
-            <div class="contact-form">1</div>
-            <div class="social-media">2</div>
+            <div className="contact-form">1</div>
+            <div className="social-media">2</div>
           </div>
         </div>
       </div>

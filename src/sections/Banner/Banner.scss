@@ -5,7 +5,7 @@
   grid-template-rows: 2fr;
 
   .title {
-    font-family: stylishFont;
+    // font-family: stylishFont;
   }
 
   .info {
@@ -17,10 +17,17 @@
     justify-self: center;
     // align-self: center;
   }
+  .wavy {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(204, 227, 236);
+    text-underline-position: under;
+  }
 }
 
 @media (max-width: 991px) {
   .banner-container {
+    height: auto;
     grid-template-columns: 1fr;
     .photo {
       grid-row: 1 / span 2;
@@ -34,5 +41,22 @@
   .banner-container {
     height: 80vh;
     align-items: center;
+  }
+}
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+
+@keyframes move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
   }
 }
