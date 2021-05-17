@@ -1,7 +1,6 @@
 .projects-container {
-  padding: 3rem 0;
+  padding: 3rem 4rem;
   .title {
-    font-family: stylishFont;
     text-align: center;
   }
   .grid-container {
@@ -33,5 +32,8 @@
 @media (max-width: 500px) {
   .projects-container .grid-container .grid {
     grid-template-columns: 1fr;
+  }
+  .projects-container {
+    padding: 3rem 1rem;
   }
 }

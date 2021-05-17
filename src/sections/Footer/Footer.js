@@ -8,17 +8,7 @@ const Footer = () => {
       {/* <hr style={{ width: "100%" }} /> */}
 
       <div className="left">
-        <img
-          style={
-            {
-              // background: "red",
-              // objectFit: "cover",
-            }
-          }
-          src={wave}
-          alt="wave"
-        />
-        <span>Built by me</span>
+        <img src={wave} alt="wave" />
       </div>
     </footer>
   );

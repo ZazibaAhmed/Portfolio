@@ -1,5 +1,5 @@
 .banner-container {
-  // border: 1px solid black;
+  padding: 0 5rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 2fr;
@@ -17,10 +17,13 @@
     justify-self: center;
     // align-self: center;
   }
+  .about-me {
+    padding-top: 1rem;
+  }
   .wavy {
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: rgb(204, 227, 236);
+    text-decoration-color: #ccf;
     text-underline-position: under;
   }
 }
@@ -43,20 +46,9 @@
     align-items: center;
   }
 }
-@-webkit-keyframes move {
-  from {
-    background-position: 2px 19px;
-  }
-  to {
-    background-position: 500px 19px;
-  }
-}
 
-@keyframes move {
-  from {
-    background-position: 2px 19px;
-  }
-  to {
-    background-position: 500px 19px;
+@media (max-width: 500px) {
+  .banner-container {
+    padding: 0 1rem;
   }
 }

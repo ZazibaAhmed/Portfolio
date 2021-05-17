@@ -1,8 +1,7 @@
 .skills-container {
-  padding: 3rem 0;
+  padding: 3rem 4rem;
   margin-bottom: 3rem;
   .title {
-    font-family: stylishFont;
     text-align: center;
   }
   .grid-container {
@@ -25,5 +24,8 @@
 @media (max-width: 500px) {
   .skills-container .grid-container .grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .skills-container {
+    padding: 3rem 4rem;
   }
 }

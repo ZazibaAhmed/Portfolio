@@ -1,3 +1,6 @@
+.nav-container {
+  padding: 0 4rem;
+}
 .navbar {
   padding-top: 1.5rem;
 }
@@ -29,5 +32,11 @@
   }
   .nav-link:hover:after {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-container {
+    padding: 0 1rem;
   }
 }

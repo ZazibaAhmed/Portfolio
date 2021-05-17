@@ -1,14 +1,10 @@
+$base-color: #ccf;
 .App {
   background: #fbfaf7;
-  padding: 0 4rem;
-}
-
-@media (max-width: 500px) {
-  .App {
-    padding: 0 1rem;
+  a {
+    color: #ccf;
   }
 }
-
 @media (min-width: 992px) {
   .skills-container {
     height: 90vh;
