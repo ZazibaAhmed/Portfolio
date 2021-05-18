@@ -5,6 +5,9 @@ import { Element } from "react-scroll";
 import email from "../../assets/contact/email.svg";
 import github from "../../assets/contact/github.svg";
 import linkedIn from "../../assets/contact/linked_in.svg";
+import GitHub from "../../assets/contact/GitHub_Logo.png";
+import Gmail from "../../assets/contact/gmail-icon.svg";
+import Linkedin from "../../assets/contact/Linkedin.png";
 
 const Contact = () => {
   return (
@@ -17,10 +20,23 @@ const Contact = () => {
             <div className="social-media">
               <ul>
                 <li key={1}>
-                  <a href="/home">
-                    <h3>#1</h3>
-                    <p>
-                      {" "}
+                  <a href="mailto:ahmedzaziba@gmail.com">
+                    {/* <h3>#1</h3> */}
+                    <p
+                      style={{
+                        overflowWrap: "break-word",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      <img
+                        style={{
+                          width: "100%",
+                          height: "50px",
+                        }}
+                        src={Gmail}
+                        alt="Gmail"
+                      />
+                      ahmedzaziba@gmail.com
                       <img
                         style={{
                           width: "20px",
@@ -29,60 +45,48 @@ const Contact = () => {
                         src={email}
                         alt="email"
                       />
-                      Email
                     </p>
                   </a>
                 </li>
                 <li key={2}>
-                  <a href="/home">
-                    <h3>#2 </h3>
+                  <a
+                    href="https://github.com/ZazibaAhmed"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {/* <h3>#2 </h3> */}
                     <p>
                       <img
                         style={{
-                          width: "20px",
-                          height: "20px",
+                          width: "100%",
+                          height: "50px",
                         }}
-                        src={github}
-                        alt="github"
+                        src={GitHub}
+                        alt="GitHub"
                       />
-                      Github
+                      View my projects on Github
                     </p>
                   </a>
                 </li>
                 <li key={3}>
-                  <a href="/home">
-                    <h3>#3 </h3>
+                  <a
+                    href="https://www.linkedin.com/in/zaziba-ahmed-214b06197/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <p>
                       <img
                         style={{
-                          width: "20px",
-                          height: "20px",
+                          width: "100%",
+                          height: "auto",
                         }}
-                        src={linkedIn}
-                        alt="linkedIn"
+                        src={Linkedin}
+                        alt="Linkedin"
                       />
-                      LinkedIn
+                      Connect with me on Linkedin
                     </p>
                   </a>
                 </li>
-                {/* <li key={4}>
-                  <a href="/home">
-                    <h3>#Twitter</h3>
-                    <p>Text Content #2</p>
-                  </a>
-                </li>
-                <li key={5}>
-                  <a href="/home">
-                    <h3>#Facebook</h3>
-                    <p>Text Content #2</p>
-                  </a>
-                </li>
-                <li key={6}>
-                  <a href="/home">
-                    <h3>#Instagram</h3>
-                    <p>Text Content #2</p>
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>
