@@ -8,17 +8,14 @@ const NavBar = () => {
   return (
     <div className="nav-container">
       <Navbar expand="md">
-        <Navbar.Brand href="#home"></Navbar.Brand>
+        <Navbar.Brand>
+          <svg height="50" width="50">
+            <circle cx="25" cy="25" r="20" fill="#ccf" />
+          </svg>
+          <span className="myName">Zaziba Ahmed</span>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Nav className="justify-content-start">
-          <Nav.Item>
-            <svg height="50" width="50">
-              <circle cx="25" cy="25" r="20" fill="#ccf" />
-            </svg>
-            Zaziba Ahmed
-          </Nav.Item>
-        </Nav>
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Collapse className="justify-content-end stroke">
           <Nav className="justify-content-end stroke">
             <Nav.Item>
               <Nav.Link href="/home">About</Nav.Link>
