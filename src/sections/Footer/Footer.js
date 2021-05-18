@@ -7,8 +7,9 @@ const Footer = () => {
     <footer className="footer">
       {/* <hr style={{ width: "100%" }} /> */}
 
-      <div className="left">
+      <div className="footer-container">
         <img src={wave} alt="wave" />
+        <div className="bottom-right">Made with love &#128150;</div>
       </div>
     </footer>
   );

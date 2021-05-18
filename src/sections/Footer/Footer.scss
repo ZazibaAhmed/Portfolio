@@ -1,5 +1,12 @@
-// .footer {
-//   p {
-//     margin-bottom: 0;
-//   }
-// }
+.footer {
+  .footer-container {
+    position: relative;
+    text-align: center;
+    color: rgb(107, 107, 107);
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+  }
+}
