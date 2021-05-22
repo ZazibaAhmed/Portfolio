@@ -18,9 +18,6 @@ const NavBar = () => {
         <Navbar.Collapse className="justify-content-end stroke">
           <Nav className="justify-content-end stroke">
             <Nav.Item>
-              <Nav.Link href="/home">About</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
               <Link
                 className="nav-link"
                 activeClass="active"

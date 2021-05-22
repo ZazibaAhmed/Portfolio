@@ -38,13 +38,13 @@ const projects = [
   {
     name: "MediSquare Health Ltd",
     description:
-      "a platform for rpg document using HTML, CSS, Bootstrap and Vanilla JavaScript",
+      "A project trying to bring all health services in one platform using HTML, CSS, Bootstrap and VanillaJS",
     img: ms1,
     live: "",
     code: "",
   },
   {
-    name: "Pro Shop",
+    name: "Pro Shop (Personal Project)",
     description:
       "An E-commerce platform with React, Redux, Node, Express & MongoDB",
     img: proshop,
@@ -57,7 +57,7 @@ const Projects = () => {
   return (
     <Element name="projects">
       <div className="projects-container">
-        <h1 className="title">Projects</h1>
+        <h1 className="title">My Work</h1>
         <hr />
         <div className="grid-container">
           <div className="grid">

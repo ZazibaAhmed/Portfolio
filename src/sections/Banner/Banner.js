@@ -11,17 +11,17 @@ const Banner = () => {
         </h1>
         <div className="about-me">
           <p>
-            I am a Software Engineer, focused on front-end, with a strong
-            passion in building simple, and functional web applications. I'm
-            passionate about creating in general and also write clean and
+            I am a Software Engineer, currently focusing on front-end, with a
+            strong passion for building simple, and functional web applications.
+            I'm passionate about creating in general and also write clean and
             well-documented code. When I'm not coding, I enjoy traveling,
             photography, and doodling &#128514;.
           </p>
           <p>
-            I mainly work with React.js but I also have experience working with
-            Angular. I'm currently building cool things at eSecureSoft
-            Technologies Ltd. If you want to take a look at some of my work,
-            please scroll down. Here's my
+            I have mainly been working with React.js but I also have experience
+            working with Angular. I'm currently building cool things at
+            eSecureSoft Technologies Ltd. If you want to take a look at some of
+            my work, please scroll down. Here's my
             <span>
               {" "}
               <a href={Resume} target="_blank" rel="noreferrer">

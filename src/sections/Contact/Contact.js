@@ -2,9 +2,6 @@ import React from "react";
 import "./Contact.scss";
 import { Element } from "react-scroll";
 
-import email from "../../assets/contact/email.svg";
-import github from "../../assets/contact/github.svg";
-import linkedIn from "../../assets/contact/linked_in.svg";
 import GitHub from "../../assets/contact/GitHub_Logo.png";
 import Gmail from "../../assets/contact/gmail-icon.svg";
 import Linkedin from "../../assets/contact/Linkedin.png";
@@ -13,7 +10,7 @@ const Contact = () => {
   return (
     <Element name="contact">
       <div className="contact-container">
-        <h1 className="title">Contact</h1>
+        <h1 className="title">Contact Me!</h1>
         <hr />
         <div className="grid-container">
           <div className="grid">
@@ -21,9 +18,9 @@ const Contact = () => {
               <ul>
                 <li key={1}>
                   <a href="mailto:ahmedzaziba@gmail.com">
-                    {/* <h3>#1</h3> */}
                     <p
                       style={{
+                        cursor: "auto",
                         overflowWrap: "break-word",
                         wordWrap: "break-word",
                       }}
@@ -37,14 +34,6 @@ const Contact = () => {
                         alt="Gmail"
                       />
                       ahmedzaziba@gmail.com
-                      <img
-                        style={{
-                          width: "20px",
-                          height: "20px",
-                        }}
-                        src={email}
-                        alt="email"
-                      />
                     </p>
                   </a>
                 </li>
@@ -54,7 +43,6 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {/* <h3>#2 </h3> */}
                     <p>
                       <img
                         style={{
@@ -79,6 +67,7 @@ const Contact = () => {
                         style={{
                           width: "100%",
                           height: "auto",
+                          marginTop: "0.8rem",
                         }}
                         src={Linkedin}
                         alt="Linkedin"
