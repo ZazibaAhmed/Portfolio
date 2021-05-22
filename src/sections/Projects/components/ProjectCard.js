@@ -15,14 +15,14 @@ export const ProjectCard = ({ project }) => {
             ""
           ) : (
             <a href={project.live} rel="noopener noreferrer" target="_blank">
-              view live
+              View live
             </a>
           )}
           {project.code === "" ? (
             ""
           ) : (
             <a href={project.code} rel="noopener noreferrer" target="_blank">
-              view code
+              View code
             </a>
           )}
         </div>
