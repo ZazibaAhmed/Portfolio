@@ -2,9 +2,9 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-scroll";
 
-import "./NavBar.scss";
+import "./Navigation.scss";
 
-const NavBar = () => {
+const Navigation = () => {
   return (
     <div className="nav-container">
       <Navbar expand="md">
@@ -61,4 +61,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navigation;

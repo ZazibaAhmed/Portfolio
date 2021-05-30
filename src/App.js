@@ -2,7 +2,7 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Components
-import NavBar from "./sections/NavBar/NavBar";
+import Navigation from "./sections/Navigation/Navigation";
 import Banner from "./sections/Banner/Banner";
 import Skills from "./sections/Skills/Skills";
 import Projects from "./sections/Projects/Projects";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <NavBar />
+        <Navigation />
         <Banner />
       </div>
       <Skills />
