@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.scss";
-import myPhoto from "../../assets/images/myPhoto.jpg";
+import myPhoto from "../../assets/images/2.jpeg";
 import Resume from "../../assets/Resume.pdf";
 const Banner = () => {
   return (
@@ -13,9 +13,10 @@ const Banner = () => {
           <p>
             I am a Software Engineer, currently focusing on front-end, with a
             strong passion for building simple, and functional web applications.
-            I'm passionate about creating in general and also write clean and
-            well-documented code. When I'm not coding, I enjoy traveling,
-            photography, and doodling &#128514;.
+            I'm passionate about creating in general and also write clean,
+            responsive and dynamic code with cross-browser compatibility. When
+            I'm not coding, I enjoy traveling, photography, painting and
+            doodling &#128514;.
           </p>
           <p>
             I have mainly been working with React.js but I also have experience
@@ -39,6 +40,7 @@ const Banner = () => {
               width: "250px",
               height: "250px",
               borderRadius: "50%",
+              filter: "grayscale(20%)",
               objectFit: "cover",
               objectPosition: "0px 0px",
             }}

@@ -28,7 +28,7 @@ const projects = [
     code: "",
   },
   {
-    name: "Secure Soceity",
+    name: "Secure Society",
     description:
       "A society managemnet system using React, Redux, Material-UI & Django",
     img: secureSociety,
