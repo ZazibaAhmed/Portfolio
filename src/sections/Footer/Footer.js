@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="footer-container">
         <img src={wave} alt="wave" />
-        <div className="bottom-right">Made with love &#128150;</div>
+        <div className="bottom-right">Haha Made with love &#128150;</div>
       </div>
     </footer>
   );
