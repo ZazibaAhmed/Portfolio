@@ -19,9 +19,8 @@ const Banner = () => {
             doodling &#128514;.
           </p>
           <p>
-            I have mainly been working with React.js but I also have experience
-            working with Angular. I'm currently building cool things at
-            eSecureSoft Technologies Ltd. If you want to take a look at some of
+            I have been working with Angular.js and React.js. I'm currently building cool things at
+            Truck Lagbe. If you want to take a look at some of
             my work, please scroll down. Here's my
             <span>
               {" "}

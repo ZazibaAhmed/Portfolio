@@ -16,15 +16,15 @@ const projects = [
     description:
       "Main website for eSecureSoft Technologies Ltd built using React & React-Bootstrap",
     img: eSececure,
-    live: "http://esecuresoftbd.com/",
+    live: "https://esecuresoft.com.bd/",
     code: "",
   },
   {
-    name: "Xmart",
+    name: "Global Brand eShop",
     description:
       "Multi-vendor E-commerce site built using Angular,Angular Material & Django",
     img: xmart,
-    live: "http://xmart.esecuresoft.com.bd:4200/",
+    live: "https://globalbrandeshop.com/",
     code: "",
   },
   {

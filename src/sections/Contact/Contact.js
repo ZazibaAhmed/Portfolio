@@ -20,7 +20,6 @@ const Contact = () => {
                   <a href="mailto:ahmedzaziba@gmail.com">
                     <p
                       style={{
-                        cursor: "auto",
                         overflowWrap: "break-word",
                         wordWrap: "break-word",
                       }}
